@@ -36,7 +36,6 @@ $error="Username or Password is invalid";
   <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'> <!-- Importa o estilo de font que sera utilizado no site-->
   <meta charset="UTF-8">
   <title>SME TI</title>
-
   <link rel="shortcut icon" href="https://i.imgur.com/18Ee88O.png" type="image/x-icon">
 
 <!--A tag style ira aplicar os estilos a pagina -->
