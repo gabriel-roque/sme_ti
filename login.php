@@ -33,10 +33,11 @@ $error="Username or Password is invalid";
 <!DOCTYPE html>
 <html lang="pt-br">
   <head>
+  <!-- Possibilidade caso venha dar erro no futuro. Verificar se o repositório da font que esta sendo imporatada ainda existe ou é o mesmo. -->
   <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'> <!-- Importa o estilo de font que sera utilizado no site-->
   <meta charset="UTF-8">
   <title>SME TI</title>
-  <link rel="shortcut icon" href="https://i.imgur.com/18Ee88O.png" type="image/x-icon">
+  <link rel="shortcut icon" href="icons/facovin.png" type="image/x-icon">
 
 <!--A tag style ira aplicar os estilos a pagina -->
 <style>
@@ -47,7 +48,7 @@ body {
 }
 
 .logo {
-    background:#181818 url('https://i.imgur.com/U1Qj4Et.png') no-repeat center;
+    background:#181818 url('icons/SME_TI_login.png') no-repeat center;
     width: 300px;
     height: 150px;
     margin: 50px auto;
@@ -85,22 +86,22 @@ body {
 }
 
 .login-block input#username {
-    background: #fff url('https://i.imgur.com/W0Il1nn.png') 20px top no-repeat;
+    background: #fff url('icons/user_icon.png') 20px top no-repeat;
     background-size: 16px 80px;
 }
 
 .login-block input#username:focus {
-    background: #fff url('https://i.imgur.com/W0Il1nn.png') 20px bottom no-repeat;
+    background: #fff url('icons/user_icon.png') 20px bottom no-repeat;
     background-size: 16px 80px;
 }
 
 .login-block input#password {
-    background: #fff url('https://i.imgur.com/fNjevvX.png') 20px top no-repeat;
+    background: #fff url('icons/password_icon.png') 20px top no-repeat;
     background-size: 16px 80px;
 }
 
 .login-block input#password:focus {
-    background: #fff url('https://i.imgur.com/fNjevvX.png') 20px bottom no-repeat;
+    background: #fff url('icons/password_icon.png') 20px bottom no-repeat;
     background-size: 16px 80px;
 }
 
