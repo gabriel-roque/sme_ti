@@ -6,6 +6,8 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<link rel="shortcut icon" href="icons/facovin.png" type="image/x-icon">
+		<link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+		<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
 <style>
 
 .rodape {
@@ -20,17 +22,27 @@
 .wrapper1 {
 		display: grid;
 		grid-template-columns: repeat(3, 1fr);
-		/* grid-auto-rows: minmax(100px, auto); */
+		grid-auto-rows: minmax(20px, 110px);
 		margin: 50px;
 		margin-top: 0px;
 		border: 5px solid #dbdbdb;
+		margin-bottom: 0px;
+}
 
+.wrapper2 {
+		display: grid;
+		grid-template-columns: repeat(1, 1fr);
+		grid-auto-rows: minmax(20px, 300px);
+		margin: 50px;
+		margin-top: 0px;
+		border: 5px solid #dbdbdb;
 }
 
 .title{
 	margin-left: 50px;
 	margin-right: 50px;
 	font-size: 15px;
+	font-family: Roboto;
 	border: 5px solid #dbdbdb;
 	background: #0067cc;
 	color: #fff
@@ -40,12 +52,16 @@
 		border: 5px solid #dbdbdb;
 		font-size: 15px;
 		width: 100%;
+		font-family: Roboto;
+		margin: 0px;
 }
 
 .box2{
 		border: 5px solid #dbdbdb;
 		font-size: 15px;
 		width: 100%;
+		font-family: Roboto;
+		margin: 0px;
 
 }
 
@@ -53,28 +69,61 @@
 		border: 5px solid #dbdbdb;
 		font-size: 15px;
 		width: 100%;
+		font-family: Roboto;
+		margin: 0px;
+}
+
+.box4{
+		border: 5px solid #dbdbdb;
+		font-size: 15px;
+		width: 100%;
+		font-family: Roboto;
+		margin: 0px;
+
 }
 
 .select{
 	padding: 0px;
-	margin-top: 0px;
+	margin-top: 35px;
+	margin-left: 5px;
 	font-size: 20px;
+	font-family: Roboto;
 }
+
 .escola{
+	padding: 0px;
+	margin-top: 10px;
 	font-size: 20px;
+	font-family: Roboto;
 }
 
 .date{
 	padding: 0px;
 	margin: 15px;
 	font-size: 15px;
+	font-family: Roboto;
 }
 
 .entrada{
 	padding: 0px;
-	margin: 15px;
+	margin-top: 10px;
+	margin-left: 5px;
 	font-size: 15px;
+	font-family: Roboto;
 }
+
+.checkbox{
+	margin-left: 10px;
+}
+
+
+.outros_checkbox{
+	padding: 0px;
+	margin-left: 5px;
+	font-size: 15px;
+	font-family: Roboto;
+}
+
 
 </style>
 
@@ -118,30 +167,52 @@
 						<div class="title">FORMULÁRIO DA ORDEM DE SERVIÇO</div>
 						<div class="wrapper1">
 
-							<!-- box1 -->
+							<!-- Box1 -->
 								<p class="box1">
 									<text>ORDEM DE SERVIÇO N°: (area para buscar no banco)</text><br> <!-- Adicionar a funcionalidade de bucar no banco o numero automatico-->
 									<text>DATA DE RECEBIMENTO:</text> <input class="date" type="date"/>
 								</p>
-
+								<!-- Box2 -->
 								 <p class="box2">
-									 <text type="text" class="escola"> ESCOLA:</text><br>
+									 <text type="text" class="escola">ESCOLA:</text>
 									 <select class="select">
 										  <option value="escola1">ELVIS CAVALCANTE</option>
-										  <option value="escola2">escola2</option>
-										  <option value="escola3">escola3</option>
-										  <option value="escola4">escola4</option>
+										  <option value="escola2">ARMINDO MATTOS</option>
+										  <option value="escola3">CASINHA FELIZ</option>
+										  <option value="escola4">DIVINA LOUREÇO</option>
 										</select>
 									</p>
-
+								<!-- Box3 -->
 								 <p class="box3">
 									 <text>SOLICITANTE:<input class="entrada" type="text"/></text><br>
 									 <text>SETOR:<input class="entrada" type="text"/></text>
 								 </p>
 						</div>
 
+						<!-- Ação Requerida-->
+						<div class="title">AÇÃO REQUERIDA</div>
+						<div class="wrapper2">
+							<!-- Box4 -->
+								<p class="box4">
+									<input class="checkbox" type="checkbox">PROBLEMA COM IMPRESSORA</input>
+									<input class="checkbox" type="checkbox">MANUTENÇÃO PREVENIVA</input><br>
+									<input class="checkbox" type="checkbox">INSTALAÇÃO NOVO PONTO DE REDE</input>
+									<input class="checkbox" type="checkbox">FORMATAÇÃO DE SISTEMA OPERACIONAL</input><br>
+									<input class="checkbox" type="checkbox">INSTALAÇÃO DE PROGRAMAS</input>
+									<input class="checkbox" type="checkbox">INSTALAÇÃO E CONFIGURAÇÃO DE IMPRESSORA</input><br>
+									<input class="checkbox" type="checkbox">INSTALAÇÃO E CONFIGURAÇÃO DE WIFI</input>
+									<input class="checkbox" type="checkbox">INSTALAÇÃO E CONFIGURAÇÃO DE SWITCH</input><br>
+									<input class="checkbox" type="checkbox">PROBLEMA COM MONITOR</input>
+									<input class="checkbox" type="checkbox">CABEAMENTO DE REDE</input><br>
+									<input class="checkbox" type="checkbox">TROCA DE EQUIPAMENTO / UPGRADE</input>
+									<input class="checkbox" type="checkbox">OUTROS:<input class="outros_checkbox" type="text"></input><br>
 
 
+
+
+
+								</p>
+						</div>
 
 						<!-- Footer - Rodape da Pagina -->
 						<div class="rodape">© SME 2018</div>
