@@ -32,7 +32,27 @@
 .wrapper2 {
 		display: grid;
 		grid-template-columns: repeat(1, 1fr);
-		grid-auto-rows: minmax(20px, 300px);
+		grid-auto-rows: minmax(20px, 250px);
+		margin: 50px;
+		margin-top: 0px;
+		border: 5px solid #dbdbdb;
+		margin-bottom: 0px;
+}
+
+.wrapper3 {
+		display: grid;
+		grid-template-columns: repeat(3, 1fr);
+		grid-auto-rows: minmax(20px, 60px);
+		margin: 50px;
+		margin-top: 0px;
+		border: 5px solid #dbdbdb;
+		margin-bottom: 0px;
+}
+
+.wrapper4 {
+		display: grid;
+		grid-template-columns: repeat(1, 1fr);
+		grid-auto-rows: minmax(20px, 100px);
 		margin: 50px;
 		margin-top: 0px;
 		border: 5px solid #dbdbdb;
@@ -79,7 +99,38 @@
 		width: 100%;
 		font-family: Roboto;
 		margin: 0px;
+}
 
+.box5{
+		border: 5px solid #dbdbdb;
+		font-size: 15px;
+		width: 100%;
+		font-family: Roboto;
+		margin: 0px;
+}
+
+.box6{
+		border: 5px solid #dbdbdb;
+		font-size: 15px;
+		width: 100%;
+		font-family: Roboto;
+		margin: 0px;
+}
+
+.box7{
+		border: 5px solid #dbdbdb;
+		font-size: 15px;
+		width: 100%;
+		font-family: Roboto;
+		margin: 0px;
+}
+
+.box8{
+		border: 5px solid #dbdbdb;
+		font-size: 15px;
+		width: 100%;
+		font-family: Roboto;
+		margin: 0px;
 }
 
 .select{
@@ -116,7 +167,6 @@
 	margin-left: 10px;
 }
 
-
 .outros_checkbox{
 	padding: 0px;
 	margin-left: 5px;
@@ -124,6 +174,33 @@
 	font-family: Roboto;
 }
 
+.tecnico{
+	padding: 0px;
+	margin-top: 0px;
+	font-size: 20px;
+	font-family: Roboto;
+}
+
+.select_tecnico{
+	padding: 0px;
+	margin-top: 13px;
+	margin-left: 5px;
+	font-size: 20px;
+	font-family: Roboto;
+}
+
+.date_atendimento{
+	padding: 0px;
+	margin: 10px;
+	font-size: 15px;
+	font-family: Roboto;
+}
+
+.servico_realizado{
+	margin: 10px;
+	height: 50px;
+	width: 500px;
+}
 
 </style>
 
@@ -206,12 +283,40 @@
 									<input class="checkbox" type="checkbox">CABEAMENTO DE REDE</input><br>
 									<input class="checkbox" type="checkbox">TROCA DE EQUIPAMENTO / UPGRADE</input>
 									<input class="checkbox" type="checkbox">OUTROS:<input class="outros_checkbox" type="text"></input><br>
-
-
-
-
-
 								</p>
+						</div>
+
+						<!-- Relatório de Atendimento -->
+						<div class="title">RELATÓRIO DE ATENDIMENTO</div>
+						<div class="wrapper3">
+							<!-- Box5 -->
+							<p class="box5">
+								<text>NUMERO DE OFÍCIO N°:<input class="entrada" type="text"/></text>
+							</p>
+							<!-- Box6 -->
+							 <p class="box6">
+								 <text type="text" class="tecnico">TÉCNICO RESPOSÁVEL:</text>
+								 <select class="select_tecnico">
+										<option value="escola1">JULIANO</option>
+										<option value="escola2">JÚNIOR</option>
+										<option value="escola3">GABRIEL</option>
+										<option value="escola4">IGOR</option>
+										<option value="escola4">KOPP</option>
+										<option value="escola4">RÔMULO</option>
+									</select>
+							</p>
+							<!-- Box7 -->
+							 <p class="box7">
+								 <text>DATA DE ATENDIMENTO:</text><input class="date_atendimento" type="date"/>
+							</p>
+						</div>
+
+						<!-- Relatório de Atendimento (serviço realizado)-->
+						<div class="wrapper4">
+							<!-- Box8 -->
+							<p class="box8">
+								<text>SERVIÇO REALIZADO:<textarea class="servico_realizado" placeholder="relate aqui"></textarea></text>
+							</p>
 						</div>
 
 						<!-- Footer - Rodape da Pagina -->
