@@ -164,7 +164,7 @@ body {
 <!-- Rodapé da pagina de login -->
 
 <div class="footer">
-  <footer>Gabriel e Vagabundos</footer>
+  <footer>© SME 2018</footer>
 </div>
 
 </body>
