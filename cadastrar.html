@@ -6,7 +6,103 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<link rel="shortcut icon" href="icons/facovin.png" type="image/x-icon">
+		<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
 <style>
+
+.title{
+	margin-left: 50px;
+	margin-right: 50px;
+	font-size: 15px;
+	font-family: Roboto;
+	border: 5px solid #dbdbdb;
+	background: #0067cc;
+	color: #fff
+}
+
+.wrapper {
+		display: grid;
+		grid-template-columns: repeat(2, 1fr);
+		grid-auto-rows: minmax(20px, 90px);
+		margin: 50px;
+		margin-top: 0px;
+		border-left: 5px solid #dbdbdb;
+		border-right: 5px solid #dbdbdb;
+		margin-bottom: 0px;
+		border-bottom: 0px;
+}
+
+.wrapper1 {
+		display: grid;
+		grid-template-columns: repeat(1, 1fr);
+		grid-auto-rows: minmax(20px, 50px);
+		border-top: 0px;
+		margin: 50px;
+		margin-top: 0px;
+		border-left: 5px solid #dbdbdb;
+		border-right: 5px solid #dbdbdb;
+		border-bottom: 5px solid #dbdbdb;
+		margin-bottom: 20px;
+}
+
+.box1{
+		border: 0px solid #dbdbdb;
+		font-size: 20px;
+		width: 100%;
+		font-family: Roboto;
+		margin: 0px;
+}
+
+.box2{
+		border: 0px solid #dbdbdb;
+		font-size: 20px;
+		width: 100%;
+		font-family: Roboto;
+		margin: 0px;
+}
+
+.box3 {
+		margin-left: 25px;
+		font-size: 15px;
+		width: 100%;
+		font-family: Roboto;
+		margin: 0px;
+}
+
+.escola_text{
+ margin-left: 70px;
+
+}
+
+.escola_form{
+	padding: 0px;
+	margin-top: 10px;
+	margin-left: 5px;
+	font-size: 15px;
+	font-family: Roboto;
+
+}
+
+.tecnico_form{
+
+	padding: 0px;
+	margin-top: 10px;
+	margin-left: 5px;
+	font-size: 15px;
+	font-family: Roboto;
+	margin-right: 200px;
+
+}
+
+.enviar{
+	margin-bottom: 15px;
+	background: #0067cc;
+	border-radius: 0px;
+}
+
+.enviar:hover{
+	background-color: #0081ff;
+}
+
 
 .rodape {
 
@@ -51,12 +147,26 @@
 					<section id="about">
 
 						<header>
-							<h6>Secretaria de Educação</h6>
+							<h6>Secretaria Municipal de Educação - Valparaíso de Goiás</h6>
 						</header>
 
-						<div class="container"></div>
-						<p>CADASTRAR</p>
+						<div class="title">CADASTRAR</div>
+						<div class="wrapper">
 
+							<p class="box1">
+								<br><text class="escola_text">ESCOLA:<input class="escola_form" type="text"/></text>
+							</p>
+
+							<p class="box2" >
+								<br><text>TÉCNICO: <input class="tecnico_form" type=text/></text>
+							</p>
+						</div>
+							<div class="wrapper1">
+								<p class="box3">
+								<button class="enviar" type="submit">INCLUIR</button>
+							</p>
+
+						</div>
 						<!-- Footer - Rodape da Pagina -->
 						<div class="rodape">© SME 2018</div>
 
