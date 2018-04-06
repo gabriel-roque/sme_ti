@@ -6,117 +6,72 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<link rel="shortcut icon" href="icons/facovin.png" type="image/x-icon">
-		<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
 <style>
 
-.title{
-	margin-left: 50px;
-	margin-right: 50px;
-	font-size: 15px;
-	font-family: Roboto;
-	border: 5px solid #dbdbdb;
-	background: #0067cc;
-	color: #fff
-}
-
-.wrapper1 {
-		display: grid;
-		grid-template-columns: repeat(4, 1fr);
-		grid-auto-rows: minmax(20px, 55px);
-		margin: 50px;
-		margin-top: 0px;
-		border: 5px solid #dbdbdb;
-		margin-bottom: 0px;
-}
-
-.box1{
-		border: 5px solid #dbdbdb;
-		font-size: 15px;
-		width: 100%;
-		font-family: Roboto;
-		margin: 0px;
-}
-
-.box2{
-		border: 5px solid #dbdbdb;
-		font-size: 15px;
-		width: 100%;
-		font-family: Roboto;
-		margin: 0px;
-}
-
-.box3{
-		border: 5px solid #dbdbdb;
-		font-size: 15px;
-		width: 100%;
-		font-family: Roboto;
-		margin: 0px;
-}
-
-.box4{
-		border: 5px solid #dbdbdb;
-		font-size: 15px;
-		width: 100%;
-		font-family: Roboto;
-		margin: 0px;
-}
-
-.escola{
-	padding: 0px;
-	margin-top: 10px;
-	font-size: 15px;
-	font-family: Roboto;
-}
-
-.select{
-	padding: 0px;
-	margin-top: 12px;
-	margin-left: 5px;
-	font-size: 15px;
-	font-family: Roboto;
-}
-
-.tecnico{
-	padding: 0px;
-	margin-top: 0px;
-	font-size: 15px;
-	font-family: Roboto;
-}
-
-.select_tecnico{
-	padding: 0px;
-	margin-top: 12px;
-	margin-left: 5px;
-	font-size: 15px;
-	font-family: Roboto;
-}
-
-.date{
-	padding: 0px;
-	margin: 7px;
-	font-size: 15px;
-	font-family: Roboto;
-}
-
-.filtrar{
-	margin-top: 5px;
-	margin-bottom: 15px;
-	background: #0067cc;
-	border-radius: 0px;
-}
-
-.filtrar:hover{
-	background-color: #0081ff;
-}
-
 .rodape {
-	margin-top: 30px;
+
 	text-align: center;
 	background-color: #dce3e2;
 	padding: 0px 0px 0px 0px;
 	box-shadow: inset 0 1px 0 0 rgba(0, 0, 0, 0.05), inset 0 0.1em 0.1em 0 rgba(0, 0, 0, 0.025);
 	font-size: 0.8em;
 }
+
+body {
+  font:  "Myriad Pro", Frutiger, "Lucida Grande", "Lucida Sans", "Lucida Sans Unicode", Verdana, sans-serif;
+  
+  
+ 
+
+}
+table {
+  border-collapse: collapse;
+  width: 60em;
+  margin: 200px 50px 500px 50px;
+  border: 10px solid #dbdbdb;
+  text-align: left;
+
+ 
+}
+
+thead {
+  
+  background: #0067cc ;
+  border-top: 1px solid #dbdbdb;
+  border-bottom: 1px solid #dbdbdb;
+  padding:.5em .5em .5em 3em;
+  color: white;
+  text-align: left;
+  width: 45em;
+
+  
+}
+tr:hover {
+  background-color:#3d80df;
+  color: #fff;
+}
+thead tr:hover {
+  background-color: transparent;
+  color: inherit;
+ 
+}
+tr:nth-child(even) {
+    background-color: #edf5ff;
+    text-align: left;
+
+    
+}
+th {
+  font-weight: normal;
+  text-align: left;
+
+th, td {
+  padding: 0.1em 1em;
+
+ 
+}
+
+
 
 </style>
 
@@ -145,6 +100,11 @@
 				</div>
 			</div>
 
+
+
+
+
+
 <!-- Main -->
 	<div id="main">
 
@@ -152,44 +112,119 @@
 					<section id="contact">
 
 						<header>
-							<h6>Secretaria de Educação</h6>
+							<h6>Secretaria Municipal de Educação - Valparaíso de Goiás</h6>
+              <table id="playlistTable">
+  <caption>Status de serviços</caption>
+  <thead>
+    <tr>
+      <th>ID</th>
+      <th>Escola</th>
+      <th>Técnico</th>
+      <th>Data receb.</th>
+      <th>Status</th>
+      <th> </th>    <!-- Sem ela a tabela fica bugada!-->
+    </tr>
+  </thead>
+
+  <tbody>
+    <tr>
+      <td>1</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+
+    <tr>
+      <td>1</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+
+    <tr>
+      <td> 1</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+
+    <tr>
+      <td> 1</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+
+    <tr>
+      <td>1</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+
+    <tr>
+      <td>1</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+
+    <tr>
+      <td>1</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+
+    <tr>
+      <td>1</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+
+    <tr>
+      <td>1</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+
+    <tr>
+      <td>1</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+
+   
+    </tr>
+  </tbody>
+</table>
 						</header>
 
-						<div class="title">CONSULTAR</div>
-						<div class="wrapper1">
-
-							<!-- Box1 -->
-								<p class="box1">
-									<text type="text" class="escola">ESCOLA:</text>
-									<select class="select">
-										 <option value="escola1">ELVIS CAVALCANTE</option>
-										 <option value="escola2">ARMINDO MATTOS</option>
-										 <option value="escola3">CASINHA FELIZ</option>
-										 <option value="escola4">DIVINA LOUREÇO</option>
-									 </select>
-								</p>
-
-								<p class="box2">
-									<text type="text" class="tecnico">TÉCNICO:</text>
-									<select class="select_tecnico">
-										 <option value="escola1">JULIANO</option>
-										 <option value="escola2">JÚNIOR</option>
-										 <option value="escola3">GABRIEL</option>
-										 <option value="escola4">IGOR</option>
-										 <option value="escola4">KOPP</option>
-										 <option value="escola4">RÔMULO</option>
-									 </select>
-								</p>
-
-								<p class="box3">
-									<text>DATA:</text><input class="date" type="date"/>
-								</p>
-
-								<p class="box4">
-									<button class="filtrar" type="submit">FILTRAR</button>
-								</p>
-
-					  </div>
+						<div class="container"></div>
+						<p>CONSULTAR</p>
 
 						<!-- Footer - Rodape da Pagina -->
 						<div class="rodape">© SME 2018</div>
@@ -197,6 +232,7 @@
 <div class="row">
 	<!-- <div class="4u 12u$(mobile)"> -->
 	</div>
+
 					</section>
 </div>
 
