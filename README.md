@@ -2,7 +2,7 @@
 
 ![version](https://img.shields.io/badge/smeti--OS-closed-red.svg)
 
->TO DO 1- realocar CSS
+>TO DO: 1- realocar CSS
 
 Login Preview
 
